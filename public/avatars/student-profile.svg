@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Perfil de estudiante</title>
+  <rect width="160" height="160" rx="80" fill="#eaf6fc"/>
+  <circle cx="80" cy="58" r="27" fill="#2563eb"/>
+  <path d="M34 142c5-31 23-47 46-47s41 16 46 47" fill="#17324d"/>
+  <path d="m43 42 37-18 37 18-37 18z" fill="#005f92"/>
+</svg>

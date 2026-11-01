@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+/.pnpm-store
+
+# Next.js output
+/.next
+/out
+
+# local environment files
+.env*
+!.env.example
+
+# test and tooling output
+/coverage
+*.tsbuildinfo
+next-env.d.ts
+
+# OS/editor files
+.DS_Store
+.idea
+.vscode
+npm-debug.log*
+
+# Local ChatGPT project mirror metadata
+/sources/
+.vercel
+/supabase/.temp/

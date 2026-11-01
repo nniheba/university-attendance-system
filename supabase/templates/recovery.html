@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restablece tu contraseña</title>
+  </head>
+  <body style="margin:0;padding:0;background:#f4f7fa;font-family:Inter,Arial,sans-serif;color:#172033;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f4f7fa;padding:40px 16px;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:560px;background:#ffffff;border:1px solid #e1e7ee;border-radius:8px;overflow:hidden;">
+            <tr>
+              <td style="height:6px;background:#2563eb;font-size:0;line-height:0;">&nbsp;</td>
+            </tr>
+            <tr>
+              <td style="padding:36px 36px 10px;">
+                <p style="margin:0 0 8px;color:#0075b8;font-size:13px;font-weight:700;letter-spacing:.08em;">
+                  Campus Attendance · SISTEMA DE ASISTENCIA
+                </p>
+                <h1 style="margin:0;color:#172b4d;font-size:28px;line-height:1.25;font-weight:700;">
+                  Restablece tu contraseña
+                </h1>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:14px 36px 0;color:#5d6878;font-size:16px;line-height:1.65;">
+                Hemos recibido una solicitud para crear una nueva contraseña para tu cuenta institucional.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:26px 36px;text-align:center;">
+                <a
+                  href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=recovery"
+                  style="display:inline-block;background:#2563eb;color:#ffffff;text-decoration:none;font-size:16px;font-weight:700;padding:14px 26px;border-radius:5px;"
+                >
+                  Restablecer contraseña
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:0 36px 20px;color:#5d6878;font-size:14px;line-height:1.6;">
+                Si no solicitaste este cambio, puedes ignorar este correo. Tu contraseña actual continuará funcionando.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:20px 36px 30px;border-top:1px solid #e8edf2;color:#87919f;font-size:12px;line-height:1.6;">
+                Por seguridad, este enlace es temporal y solo debe utilizarlo el propietario de la cuenta.
+                <br><br>
+                Sistema de Asistencia · Campus Attendance
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Avatar docente azul</title>
+  <rect width="160" height="160" rx="80" fill="#eaf6fc"/>
+  <circle cx="80" cy="61" r="29" fill="#2563eb"/>
+  <path d="M31 145c4-33 23-50 49-50s45 17 49 50" fill="#005f92"/>
+</svg>

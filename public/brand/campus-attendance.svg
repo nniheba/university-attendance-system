@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-labelledby="title description">
+  <title id="title">Campus Attendance</title>
+  <desc id="description">Símbolo genérico de asistencia mediante código QR</desc>
+  <rect width="96" height="96" rx="20" fill="#1d4ed8"/>
+  <g fill="none" stroke="#fff" stroke-width="7">
+    <path d="M20 38V20h18M58 20h18v18M76 58v18H58M38 76H20V58" stroke-linecap="round"/>
+    <path d="m31 49 11 11 24-27" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="116" y="43" fill="#172033" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">Campus</text>
+  <text x="116" y="72" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">Attendance</text>
+</svg>
